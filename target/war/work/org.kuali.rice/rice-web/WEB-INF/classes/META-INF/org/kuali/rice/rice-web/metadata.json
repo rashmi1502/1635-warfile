@@ -1,0 +1,189 @@
+{
+  "build" : {
+    "host" : {
+      "canonicalHostName" : "deploy-p1ap-slave-229",
+      "hostAddress" : "10.3.53.229",
+      "hostName" : "deploy-p1ap-slave-229"
+    },
+    "os" : {
+      "arch" : "amd64",
+      "name" : "Linux",
+      "version" : "3.10.0-327.18.2.el7.x86_64"
+    },
+    "runtime" : {
+      "specification" : {
+        "name" : "Java Platform API Specification",
+        "vendor" : "Oracle Corporation",
+        "version" : "1.8"
+      },
+      "vendor" : "Oracle Corporation",
+      "vendorUrl" : "http://java.oracle.com/",
+      "version" : "1.8.0_60"
+    },
+    "scm" : {
+      "revision" : "84803f87c959c43b492f96e23a89c2543fa18fdb",
+      "type" : "GIT",
+      "url" : "https://github.com/kuali/rice"
+    },
+    "timestamp" : 1469209471812,
+    "user" : "jenkins",
+    "vm" : {
+      "name" : "Java HotSpot(TM) 64-Bit Server VM",
+      "specification" : {
+        "name" : "Java Virtual Machine Specification",
+        "vendor" : "Oracle Corporation",
+        "version" : "1.8"
+      },
+      "vendor" : "Oracle Corporation",
+      "version" : "25.60-b23"
+    }
+  },
+  "project" : {
+    "coordinates" : {
+      "artifactId" : "rice-web",
+      "groupId" : "org.kuali.rice",
+      "version" : "2.1.14"
+    },
+    "dependencies" : [ {
+      "artifactId" : "rice-krms-impl",
+      "exclusions" : [ ],
+      "groupId" : "org.kuali.rice",
+      "optional" : false,
+      "scope" : "COMPILE",
+      "systemPath" : null,
+      "type" : "jar",
+      "version" : "2.1.14"
+    }, {
+      "artifactId" : "rice-location-web",
+      "exclusions" : [ ],
+      "groupId" : "org.kuali.rice",
+      "optional" : false,
+      "scope" : "COMPILE",
+      "systemPath" : null,
+      "type" : "jar",
+      "version" : "2.1.14"
+    }, {
+      "artifactId" : "rice-location-impl",
+      "exclusions" : [ ],
+      "groupId" : "org.kuali.rice",
+      "optional" : false,
+      "scope" : "COMPILE",
+      "systemPath" : null,
+      "type" : "jar",
+      "version" : "2.1.14"
+    }, {
+      "artifactId" : "rice-kew-impl",
+      "exclusions" : [ ],
+      "groupId" : "org.kuali.rice",
+      "optional" : false,
+      "scope" : "COMPILE",
+      "systemPath" : null,
+      "type" : "jar",
+      "version" : "2.1.14"
+    }, {
+      "artifactId" : "rice-ksb-web",
+      "exclusions" : [ ],
+      "groupId" : "org.kuali.rice",
+      "optional" : false,
+      "scope" : "COMPILE",
+      "systemPath" : null,
+      "type" : "jar",
+      "version" : "2.1.14"
+    }, {
+      "artifactId" : "rice-impl",
+      "exclusions" : [ ],
+      "groupId" : "org.kuali.rice",
+      "optional" : false,
+      "scope" : "COMPILE",
+      "systemPath" : null,
+      "type" : "jar",
+      "version" : "2.1.14"
+    }, {
+      "artifactId" : "rice-kns",
+      "exclusions" : [ ],
+      "groupId" : "org.kuali.rice",
+      "optional" : false,
+      "scope" : "COMPILE",
+      "systemPath" : null,
+      "type" : "jar",
+      "version" : "2.1.14"
+    }, {
+      "artifactId" : "rice-edl-impl",
+      "exclusions" : [ ],
+      "groupId" : "org.kuali.rice",
+      "optional" : false,
+      "scope" : "COMPILE",
+      "systemPath" : null,
+      "type" : "jar",
+      "version" : "2.1.14"
+    }, {
+      "artifactId" : "mysql-connector-java",
+      "exclusions" : [ ],
+      "groupId" : "mysql",
+      "optional" : false,
+      "scope" : "PROVIDED",
+      "systemPath" : null,
+      "type" : "jar",
+      "version" : "5.1.38"
+    }, {
+      "artifactId" : "servlet-api",
+      "exclusions" : [ ],
+      "groupId" : "javax.servlet",
+      "optional" : false,
+      "scope" : "PROVIDED",
+      "systemPath" : null,
+      "type" : "jar",
+      "version" : "2.5"
+    }, {
+      "artifactId" : "esapi",
+      "exclusions" : [ {
+        "artifactId" : "commons-logging",
+        "groupId" : "commons-logging"
+      }, {
+        "artifactId" : "commons-beanutils-core",
+        "groupId" : "commons-beanutils"
+      }, {
+        "artifactId" : "xom",
+        "groupId" : "xom"
+      }, {
+        "artifactId" : "bsh-core",
+        "groupId" : "org.beanshell"
+      }, {
+        "artifactId" : "antisamy",
+        "groupId" : "org.owasp.antisamy"
+      }, {
+        "artifactId" : "batik-css",
+        "groupId" : "org.apache.xmlgraphics"
+      } ],
+      "groupId" : "org.owasp.esapi",
+      "optional" : false,
+      "scope" : "COMPILE",
+      "systemPath" : null,
+      "type" : "jar",
+      "version" : "2.1.0.1"
+    } ],
+    "description" : "The Kuali Rice effort provides an enterprise class middleware suite of integrated products that allows\n    both Kuali and non-Kuali applications\n    to be built in an agile fashion, such that developers will be able to\n    react to\n    end-user business requirements in an efficient and productive manner, so\n    that they can produce high\n    quality business\n    applications.",
+    "encoding" : "UTF-8",
+    "inceptionYear" : "2005",
+    "licenses" : [ {
+      "comments" : null,
+      "name" : "Educational Community License, Version 2.0",
+      "url" : "http://maven.kuali.org/external/org/opensource/ecl/2.0/ecl-2.0.txt"
+    } ],
+    "name" : "Rice Web",
+    "packaging" : "war",
+    "parent" : {
+      "artifactId" : "rice",
+      "groupId" : "org.kuali.rice",
+      "version" : "2.1.14"
+    },
+    "properties" : { },
+    "scm" : {
+      "connection" : "scm:git:git@github.com:kuali/rice.git/rice-web",
+      "developerConnection" : "scm:git:git@github.com:kuali/rice.git/rice-web",
+      "tag" : "rice-2.1.14",
+      "url" : "https://github.com/kuali/rice/tree/rice-2.1.14/rice-web"
+    },
+    "url" : "http://site.kuali.org/rice/2.1.14/rice-web"
+  }
+}
